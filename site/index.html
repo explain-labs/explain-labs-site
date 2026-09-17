@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Explain Labs — model driven educational tools for neonatal care</title>
+<meta name="description" content="Open, model driven teaching tools for neonatology: a real time physiological simulation engine, a patient monitor emulator, and case based learning.">
+<link rel="canonical" href="https://explain-labs.com/">
+<meta name="theme-color" content="#0B0B0F">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Explain Labs">
+<meta property="og:url" content="https://explain-labs.com/">
+<meta property="og:title" content="Explain Labs — model driven educational tools for neonatal care">
+<meta property="og:description" content="Open, model driven teaching tools for neonatology: a real time physiological simulation engine, a patient monitor emulator, and case based learning.">
+<meta property="og:image" content="https://explain-labs.com/img/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Explain Labs — model driven educational tools for neonatal care">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="alternate icon" href="/favicon.ico" sizes="any">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+
+<link rel="preload" as="font" type="font/woff2" crossorigin href="/fonts/nunito-sans-latin-normal.woff2">
+<link rel="preload" as="image" type="image/avif" href="/img/hero-1024.avif"
+      imagesrcset="/img/hero-640.avif 640w, /img/hero-1024.avif 1024w, /img/hero-1536.avif 1536w"
+      imagesizes="100vw" fetchpriority="high">
+<link rel="stylesheet" href="/styles.css">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Explain Labs",
+  "url": "https://explain-labs.com/",
+  "logo": "https://explain-labs.com/icon-512.png",
+  "email": "timantonius@pm.me",
+  "description": "Model driven educational tools for neonatal care.",
+  "founder": { "@type": "Person", "name": "Tim Antonius" },
+  "sameAs": ["https://github.com/explain-labs"]
+}
+</script>
+</head>
+
+<body>
+<div class="topbar" aria-hidden="true"></div>
+<a class="skip" href="#main">Skip to content</a>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="mark" viewBox="-6 -5 212 211">
+    <path d="M 164.44 35.80 C 200.52 71.35 200.52 129.00 164.44 164.56 C 128.36 200.11 69.86 200.11 33.77 164.56 C -2.31 129.00 -2.31 71.35 33.77 35.80 C 69.86 0.24 128.36 0.24 164.44 35.80" fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 136.44 63.39 C 157.06 83.71 157.06 116.65 136.44 136.96 C 115.82 157.28 82.39 157.28 61.77 136.96 C 41.16 116.65 41.16 83.71 61.77 63.39 C 82.39 43.07 115.82 43.07 136.44 63.39" fill="none" stroke="#919191" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 110.16 39.15 C 116.35 45.24 116.35 55.12 110.16 61.22 C 103.98 67.31 93.95 67.31 87.76 61.22 C 81.58 55.12 81.58 45.24 87.76 39.15 C 93.95 33.05 103.98 33.05 110.16 39.15" fill="#003399"/>
+    <path d="M 110.16 140.14 C 116.35 146.24 116.35 156.12 110.16 162.22 C 103.98 168.31 93.95 168.31 87.76 162.22 C 81.58 156.12 81.58 146.24 87.76 140.14 C 93.95 134.05 103.98 134.05 110.16 140.14" fill="#003399"/>
+    <path d="M 63.13 62.24 C 69.31 68.33 69.31 78.21 63.13 84.31 C 56.94 90.41 46.91 90.41 40.73 84.31 C 34.54 78.21 34.54 68.33 40.73 62.24 C 46.91 56.14 56.94 56.14 63.13 62.24" fill="#003399"/>
+    <path d="M 155.47 62.24 C 161.65 68.33 161.65 78.21 155.47 84.31 C 149.28 90.41 139.25 90.41 133.07 84.31 C 126.88 78.21 126.88 68.33 133.07 62.24 C 139.25 56.14 149.28 56.14 155.47 62.24" fill="#003399"/>
+    <path d="M 63.13 117.92 C 69.31 124.01 69.31 133.89 63.13 139.99 C 56.94 146.09 46.91 146.09 40.73 139.99 C 34.54 133.89 34.54 124.01 40.73 117.92 C 46.91 111.82 56.94 111.82 63.13 117.92" fill="#003399"/>
+    <path d="M 155.61 117.92 C 161.80 124.01 161.80 133.89 155.61 139.99 C 149.43 146.09 139.40 146.09 133.21 139.99 C 127.03 133.89 127.03 124.01 133.21 117.92 C 139.40 111.82 149.43 111.82 155.61 117.92" fill="#cc0099"/>
+  </symbol>
+</svg>
+
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="/" aria-label="Explain Labs home">
+      <svg class="brand-mark" aria-hidden="true" focusable="false"><use href="#mark"></use></svg>
+      <span class="wordmark"><b>EXPLAIN</b><i>LABS</i></span>
+    </a>
+    <nav class="site-nav" aria-label="Sections">
+      <a href="#what">What we build</a>
+      <a href="#apps">Apps</a>
+      <a href="#open">Open source</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="btn btn-primary btn-sm" href="https://modeling.explain-labs.com">Open the simulator</a>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ─────────────────────────── hero ─────────────────────────── -->
+  <section class="hero" aria-labelledby="hero-title">
+    <picture class="hero-photo">
+      <source type="image/avif" sizes="100vw"
+              srcset="/img/hero-640.avif 640w, /img/hero-1024.avif 1024w, /img/hero-1536.avif 1536w">
+      <img src="/img/hero-1024.webp"
+           srcset="/img/hero-640.webp 640w, /img/hero-1024.webp 1024w, /img/hero-1536.webp 1536w"
+           sizes="100vw" width="1536" height="1024" alt=""
+           fetchpriority="high" decoding="async">
+    </picture>
+    <svg class="hero-ghost" aria-hidden="true" focusable="false"><use href="#mark"></use></svg>
+
+    <div class="wrap hero-inner">
+      <p class="eyebrow">Explain Labs</p>
+      <h1 id="hero-title">Model driven educational tools for neonatal care</h1>
+      <p class="lead">
+        Explain is a physiological simulation engine for neonatology. It models the cardiac and
+        respiratory systems as a network of compartments — capacitances, resistors, time-varying
+        elastances, gas exchangers and diffusors — and steps them in real time, in a browser.
+      </p>
+      <div class="cta">
+        <a class="btn btn-primary" href="https://modeling.explain-labs.com">Open the simulator</a>
+        <a class="btn btn-ghost" href="https://monitor.explain-labs.com">See the patient monitor</a>
+      </div>
+      <p class="quiet-link"><a href="https://github.com/explain-labs">The engine on GitHub →</a></p>
+
+      <ul class="stats">
+        <li><span>35</span>built-in scenarios</li>
+        <li><span>0</span>runtime dependencies</li>
+        <li><span>MIT</span>licensed, publicly</li>
+        <li><span>DOI</span>10.5281/zenodo.21389097</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ───────────────────────── what we build ───────────────────── -->
+  <section id="what" class="band" aria-labelledby="what-title">
+    <div class="wrap">
+      <p class="eyebrow rule">What we build</p>
+      <h2 id="what-title">Physiology you can push on</h2>
+
+      <div class="grid-3">
+        <article class="card pad">
+          <h3>Simulate, don't animate</h3>
+          <p>Nothing on screen is scripted. Every pressure, flow, volume and blood gas is computed
+             from a model of the patient. Change a resistance, open a duct, turn up the PEEP, and
+             the whole circulation responds the way physiology says it should.</p>
+        </article>
+        <article class="card pad">
+          <h3>Scenarios are the curriculum</h3>
+          <p>Thirty-five model definitions ship with the engine: a healthy term neonate, preterms
+             from 24 to 36 weeks, a fetus, an adult, and congenital heart disease from HLHS and
+             dTGA to TAPVC, coarctation, PA-IVS and six PDA variants. Each one is readable JSON
+             you can fork.</p>
+        </article>
+        <article class="card pad">
+          <h3>Runs anywhere a browser does</h3>
+          <p>Plain JavaScript in a Web Worker, no dependencies and nothing to install. A lecture
+             hall laptop and a phone at the bedside run the same model at the same speed.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─────────────────────────── the apps ──────────────────────── -->
+  <section id="apps" class="band band-alt" aria-labelledby="apps-title">
+    <div class="wrap">
+      <p class="eyebrow rule">Applications</p>
+      <h2 id="apps-title">Three ways to use it</h2>
+
+      <article class="row">
+        <div class="row-text">
+          <p class="badge">Free account required</p>
+          <h3>Explain — the simulator</h3>
+          <p>The full model. Load or build a patient, drive the ventilator and ECLS, and watch
+             circulation, respiration and blood gases respond in real time — down to the pressure
+             in any single compartment.</p>
+          <p><a class="btn btn-ghost" href="https://modeling.explain-labs.com">modeling.explain-labs.com</a></p>
+        </div>
+        <figure class="shot">
+          <picture>
+            <source type="image/avif" sizes="(min-width: 900px) 640px, 92vw"
+                    srcset="/img/modeling-760.avif 760w, /img/modeling-1100.avif 1100w, /img/modeling-1600.avif 1600w">
+            <img src="/img/modeling-1100.webp"
+                 srcset="/img/modeling-760.webp 760w, /img/modeling-1100.webp 1100w, /img/modeling-1600.webp 1600w"
+                 sizes="(min-width: 900px) 640px, 92vw" width="1600" height="760"
+                 loading="lazy" decoding="async"
+                 alt="The Explain simulator: a circular circulation diagram of a normal neonate with the breathing controller on the left and live vital signs on the right.">
+          </picture>
+        </figure>
+      </article>
+
+      <article class="row row-flip">
+        <div class="row-text">
+          <p class="badge">Open · no account</p>
+          <h3>Explain Patient Monitor</h3>
+          <p>A patient monitor emulator driven by the same engine. ECG, two plethysmograms,
+             arterial pressure, respiration and capnography, on a screen that behaves like the
+             one on the unit — built for manikin scenarios and simulation training.</p>
+          <p><a class="btn btn-ghost" href="https://monitor.explain-labs.com">monitor.explain-labs.com</a></p>
+        </div>
+        <figure class="shot">
+          <picture>
+            <source type="image/avif" sizes="(min-width: 900px) 640px, 92vw"
+                    srcset="/img/monitor-760.avif 760w, /img/monitor-1100.avif 1100w, /img/monitor-1600.avif 1600w">
+            <img src="/img/monitor-1100.webp"
+                 srcset="/img/monitor-760.webp 760w, /img/monitor-1100.webp 1100w, /img/monitor-1600.webp 1600w"
+                 sizes="(min-width: 900px) 640px, 92vw" width="1600" height="763"
+                 loading="lazy" decoding="async"
+                 alt="The Explain patient monitor emulator showing ECG, two SpO2 plethysmograms, arterial pressure, respiration and CO2 traces with their numerics.">
+          </picture>
+        </figure>
+      </article>
+
+      <article class="row">
+        <div class="row-text">
+          <p class="badge">Invite only</p>
+          <h3>Cradle</h3>
+          <p>Clinical reasoning and data driven learning in neonatology. Work a case the way you
+             would work it on the unit — commit to a decision, then see what the data says.</p>
+          <p><a class="btn btn-ghost" href="mailto:timantonius@pm.me?subject=Cradle%20invite">Request an invite</a></p>
+        </div>
+        <figure class="shot cradle-tile" aria-hidden="true">
+          <svg class="cradle-mark" viewBox="0 0 32 32" focusable="false">
+            <circle cx="16" cy="11" r="3.2" fill="none" stroke="currentColor" stroke-width="1.8"/>
+            <path d="M5 20 Q16 28 27 20" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+            <path d="M5 20 H27" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+          </svg>
+          <span class="cradle-word">CRADLE</span>
+        </figure>
+      </article>
+    </div>
+  </section>
+
+  <!-- ───────────────────────── open source ─────────────────────── -->
+  <section id="open" class="band" aria-labelledby="open-title">
+    <div class="wrap">
+      <p class="eyebrow rule">Open source and science</p>
+      <h2 id="open-title">Open, and checkable</h2>
+      <p class="lead measure">
+        Explain is open. The engine and the web app are public on GitHub under the MIT licence,
+        the model definitions are readable JSON, and the engine is archived and citable on
+        Zenodo. If you want to know what a scenario actually does, you can read the code that
+        does it.
+      </p>
+
+      <figure class="cite">
+        <blockquote>
+          Antonius, T. <i>Explain — a physiological simulation engine for neonatology.</i> Zenodo.
+          <a href="https://doi.org/10.5281/zenodo.21389097">https://doi.org/10.5281/zenodo.21389097</a>
+        </blockquote>
+      </figure>
+
+      <ul class="chips">
+        <li><a href="https://github.com/explain-labs/explain-engine">explain-labs/explain-engine</a></li>
+        <li><a href="https://github.com/explain-labs/explain-ui">explain-labs/explain-ui</a></li>
+        <li><a href="https://github.com/explain-labs">github.com/explain-labs</a></li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<footer id="contact" class="site-footer">
+  <div class="wrap footer-inner">
+    <div class="footer-about">
+      <svg class="brand-mark lg" aria-hidden="true" focusable="false"><use href="#mark"></use></svg>
+      <p class="measure">
+        Explain Labs is the work of <b>Tim Antonius</b>, neonatologist at Radboudumc Amalia
+        Children's Hospital, Department of Pediatrics – Division of Neonatology, Nijmegen,
+        the Netherlands.
+      </p>
+      <p><a href="mailto:timantonius@pm.me">timantonius@pm.me</a></p>
+    </div>
+    <nav class="footer-links" aria-label="Elsewhere">
+      <p class="eyebrow">Applications</p>
+      <a href="https://modeling.explain-labs.com">Explain simulator</a>
+      <a href="https://monitor.explain-labs.com">Patient monitor</a>
+      <a href="https://cradle.explain-labs.com">Cradle</a>
+      <p class="eyebrow">Code</p>
+      <a href="https://github.com/explain-labs">github.com/explain-labs</a>
+    </nav>
+  </div>
+  <div class="wrap footer-base">
+    <p class="disclaimer">Explain is a teaching tool. It is not a medical device and must not be
+       used for clinical decision making.</p>
+    <p class="copy">© 2026 Explain Labs</p>
+  </div>
+</footer>
+</body>
+</html>
