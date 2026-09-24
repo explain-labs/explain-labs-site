@@ -225,6 +225,9 @@ a:hover { color: #9CBBFF; }
 .row-text h3 { font-size: clamp(1.375rem, 2vw, 1.75rem); margin-bottom: .75rem; }
 .row-text p { color: var(--text-dim); }
 .row-text .btn { margin-top: .5rem; }
+/* CRADLE's initials, spelled out in the Cradle row. */
+.row-text strong { color: var(--text); font-weight: 700; }
+.row-text .note { margin-top: .75rem; font-size: .875rem; }
 
 .badge {
   display: inline-block; margin-bottom: 1rem;
