@@ -25,7 +25,7 @@ Source artwork lives in `tools/source/`. Both scripts need Pillow with AVIF + We
 (Pillow ≥ 11) and run on macOS:
 
 ```sh
-python3 tools/build-images.py   # site/img/{hero,modeling,lessons,monitor,cradle}-*.{avif,webp}
+python3 tools/build-images.py   # site/img/{hero,modeling,lessons,ventilator,monitor,cradle}-*.{avif,webp}
 python3 tools/build-og.py       # site/img/og.png (1200×630 social card)
 ```
 
