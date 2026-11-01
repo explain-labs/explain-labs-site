@@ -17,7 +17,7 @@ OUT = ROOT.parent / "site" / "img"
 # (source file, output stem, widths, avif quality, webp quality)
 JOBS = [
     ("background.png", "hero", [1536, 1024, 640], 45, 72),
-    ("explain-model-product.png", "modeling", [1600, 1100, 760], 55, 80),
+    ("explain-model-product.png", "modeling", [1512, 1100, 760], 55, 80),
     ("explain-monitor-product.png", "monitor", [1512, 1100, 760], 55, 80),
 ]
 
