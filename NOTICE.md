@@ -10,6 +10,7 @@ The **artwork** is not. All rights reserved, © Tim Antonius:
 | `site/favicon.svg`, `site/icon-512.png`, `site/apple-touch-icon.png`, `site/favicon.ico` | the Explain Labs mark |
 | `tools/source/background.png` → `site/img/hero-*` | hero photograph |
 | `tools/source/explain-model-product.png` → `site/img/modeling-*` | Explain simulator screenshot |
+| `tools/source/explain-lessons-product.png` → `site/img/lessons-*` | Explain Lessons screenshot |
 | `tools/source/explain-monitor-product.png` → `site/img/monitor-*` | Explain Patient Monitor screenshot |
 | `tools/source/explain-cradle-product.png` → `site/img/cradle-*` | Cradle screenshot |
 | `site/img/og.png` | social card built from the above |
