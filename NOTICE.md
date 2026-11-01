@@ -11,6 +11,7 @@ The **artwork** is not. All rights reserved, © Tim Antonius:
 | `tools/source/background.png` → `site/img/hero-*` | hero photograph |
 | `tools/source/explain-model-product.png` → `site/img/modeling-*` | Explain simulator screenshot |
 | `tools/source/explain-monitor-product.png` → `site/img/monitor-*` | Explain Patient Monitor screenshot |
+| `tools/source/explain-cradle-product.png` → `site/img/cradle-*` | Cradle screenshot |
 | `site/img/og.png` | social card built from the above |
 
 **Nunito Sans** (`site/fonts/*.woff2`) is © The Nunito Project Authors and is licensed under

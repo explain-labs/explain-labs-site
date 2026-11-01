@@ -246,22 +246,6 @@ a:hover { color: #9CBBFF; }
 }
 .shot img { display: block; width: 100%; height: auto; }
 
-.cradle-tile {
-  display: grid; place-content: center; gap: 1rem; justify-items: center;
-  aspect-ratio: 2.1 / 1;
-  background:
-    radial-gradient(120% 120% at 30% 15%, rgba(253, 224, 110, .30), transparent 60%),
-    radial-gradient(120% 120% at 75% 80%, rgba(140, 205, 253, .30), transparent 60%),
-    radial-gradient(110% 110% at 55% 55%, rgba(254, 180, 200, .20), transparent 65%),
-    var(--surface);
-}
-.cradle-mark { width: 84px; height: 84px; color: #FCE9D8; opacity: .9; }
-.cradle-word {
-  font-weight: 800; font-size: 1.5rem; letter-spacing: .18em;
-  background: linear-gradient(120deg, #F5C451, #F08BA0, #7CC5F0);
-  -webkit-background-clip: text; background-clip: text; color: transparent;
-}
-
 @media (max-width: 900px) {
   .row, .row-flip { grid-template-columns: 1fr; }
   .row-flip .row-text { order: 0; }
